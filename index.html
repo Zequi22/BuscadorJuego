@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LookingForFun</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+  
+    <!--Redes-->
+    <link rel="stylesheet" href="./font-awesome.min (1).css">
+    <script src="https://kit.fontawesome.com/ca3882ff70.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./estilosresdes.css">
+</head>
+
+<body>
+  <header class="modern-header">
+    <div class="logo-container">
+      <img src="./recursos/img/Logo_cortado-removebg-preview.png" alt="logotipo" class="logotipo">
+      <table border="0">
+        <tr>
+          <td>
+            <h1 class="titulo">LookingForFun</h1>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h2 class="subTitulo">the best place to find your next hours of fun</h2>
+          </td>
+        </tr>
+      </table>
+
+    </div>
+  </header>
+  <div class="menus">
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="indexSobreNosotros.html">Sobre Nosotros</a></li>
+        <li><a href="indexformulario.html">Registro</a></li>
+        <li><a href="indexsostenibilidad.html">Sostenibilidad</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <main>
+    <section id="search-sections">
+      <div class="search-section">
+        <h2>Filtros de Búsqueda</h2>
+        <div class="filter-row">
+          <input type="text" id="name-input" placeholder="Nombre del juego" class="live-search">
+        </div>
+        <div class="filter-row">
+          <select id="genre-select">
+            <option value="">Todos los géneros</option>
+            <option value="SHOOTER">Shooter</option>
+            <option value="TERROR">Terror</option>
+            <option value="AVENTURA">Aventura</option>
+            <option value="SIGILO">Sigilo</option>
+            <option value="SIMULACION">Simulación</option>
+            <option value="DEPORTIVO">Deportivo</option>
+            <option value="CARRERAS">Carreras</option>
+            <option value="RPG">RPG</option>
+            <option value="PLATAFORMAS">Plataformas</option>
+            <option value="LUCHA">Lucha</option>
+            <option value="FAMILIA">Familiar</option>
+            <option value="ESTRATEGIA">Estrategia</option>
+            <option value="PUZZLE">Puzzle</option>
+            <option value="AVENTURA GRAFICA">Aventura Gráfica</option>
+          </select>
+        </div>
+        <div class="filter-row">
+          <input type="text" id="developer-input" placeholder="Desarrolladora">
+        </div>
+      </div>
+
+      <div class="search-section">
+        <h2>Filtros Avanzados</h2>
+        <div class="filter-row">
+          <input type="number" id="rating-input" placeholder="Nota mínima (0-100)" min="0" max="100" step="1">
+        </div>
+        <div class="filter-row">
+          <select id="console-select">
+            <option value="">Todas las consolas</option>
+            <option value="PC">PC</option>
+            <option value="PS2">PlayStation 2</option>
+            <option value="XBOX">Xbox</option>
+            <option value="NINTENDO DS">Nintendo DS</option>
+            <option value="WII">Wii</option>
+            <option value="SWITCH">Nintendo Switch</option>
+            <option value="PS3">PlayStation 3</option>
+            <option value="XBOX 360">Xbox 360</option>
+            <option value="PS4">PlayStation 4</option>
+            <option value="XBOX ONE">Xbox One</option>
+            <option value="XBOX SERIES X/S">Xbox Series X/S</option>
+          </select>
+        </div>
+
+        <div class="filter-row">
+          <input type="number" id="year-input" placeholder="Año de lanzamiento" min="1998" max="2024">
+        </div>
+      </div>
+
+      <div class="search-section">
+        <h2>Ordenamiento</h2>
+        <div class="filter-row">
+          <select class="global-sort" id="global-sort">
+            <option value="">Ordenar por...</option>
+            <option value="name">Nombre</option>
+            <option value="rating">Nota</option>
+            <option value="year">Año</option>
+          </select>
+          <select id="sort-order">
+            <option value="asc">Ascendente</option>
+            <option value="desc">Descendente</option>
+          </select>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <div id="results-container" class="modern-results"></div>
+
+  <footer class="modern-footer">
+    <div class="footer-content">
+      <p>Por el mejor equipo de la clase 1ºDAW</p>
+    </div>
+    <section class="redes-sociales">
+      <div class="contenedor">
+          <a href="http://www.x.com/cristobal" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+          <a href="http://www.facebook.com/cristobal" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+          <a href="http://www.youtube.com/cristobal" class="youtube"><i class="fa-brands fa-youtube"></i></a>
+          <a href="http://www.github.com/cristobal" class="github"><i class="fa-brands fa-github"></i></a>
+          <a href="http://www.instagram.com/cristobal" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+  </section>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
