@@ -433,6 +433,91 @@ button:hover {
     width: 100%;
     height: auto; 
   }
+
+  .modern-header {
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .logo-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logotipo {
+    width: 70%;
+  }
+
+  .text-container {
+    align-items: center;
+  }
+
+  .titulo {
+    font-size: 1.8rem;
+  }
+
+  .subTitulo {
+    font-size: 0.8rem;
+  }
+
+  .menus nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menus nav ul li {
+    margin: 0.5em 0;
+  }
+
+  #search-sections {
+    padding: 1rem;
+  }
+
+  .search-section {
+    padding: 1rem;
+  }
+
+  .modern-results {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+
+  .game-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .game-card .game-image {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .game-card .game-image img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .modern-main {
+    margin-left: 0;
+  }
+
+  .TextoDivcard,
+  .formulario-card {
+    padding: 1rem;
+  }
+
+  iframe {
+    width: 100%;
+    height: auto;
+  }
+
+  footer .redes-sociales .contenedor a {
+    width: 50px;
+    font-size: 20px;
+    margin: 0 10px;
+    padding: 10px 0;
+  }
 }
 
 @media (max-width: 1200px) {
